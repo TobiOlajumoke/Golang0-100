@@ -18,9 +18,14 @@ func main() {
 
 	// fmt.Println(nameFour)
 
+	// int
 	var ageOne int = 10
 	var ageTwo = 30
 	agethree := 15
 
 	fmt.Println(ageOne, ageTwo, agethree)
+	// // bits & memory
+	// var numOne int8 = 25
+	// var numTwo int8 = -128
+	// var numThree uint16 = 256
 }
