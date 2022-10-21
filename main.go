@@ -98,5 +98,9 @@ func main() {
 	// fmt.Println(strings.ReplaceAll(greeting, "hello", "hi"))
 	// fmt.Println(strings.ToUpper(greeting))
 	fmt.Println(strings.Index(greeting, "ll"))
+	fmt.Println(strings.Index(greeting, "th"))
+
+	// the original value is unchanged
+	fmt.Println("orignal string value =", greeting)
 
 }
