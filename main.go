@@ -139,8 +139,13 @@ func main() {
 	// 		fmt.Println(names[i])
 	// 	}
 
-	for index, value := range names {
-		fmt.Printf("the position at index %v is %v \n", index, value)
+	// for index, value := range names {
+	// 	fmt.Printf("the position at index %v is %v \n", index, value)
+	// }
+
+	// to get the value alone
+	for _, value := range names {
+		fmt.Printf("the value is %v \n", value)
 	}
 
 }
