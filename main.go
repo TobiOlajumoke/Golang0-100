@@ -118,9 +118,7 @@
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// 	x := 0
@@ -137,7 +135,12 @@ func main() {
 
 	// running through slice of string
 	names := []string{"victor", "tobi", "ayo", "mayowa"}
-	for i := 0; i < len(names); i++ {
-		fmt.Println(names[i])
+	// 	for i := 0; i < len(names); i++ {
+	// 		fmt.Println(names[i])
+	// 	}
+
+	for index, value := range names {
+		fmt.Printf("the position at index %v is %v \n", index, value)
 	}
+
 }
