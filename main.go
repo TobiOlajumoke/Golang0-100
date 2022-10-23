@@ -85,33 +85,59 @@
 // 	fmt.Println(rangeOne)
 
 // }
+// package main
+
+// import (
+// 	"fmt"
+// 	"sort"
+// )
+
+// func main() {
+// 	// greeting := "hello there friends!"
+// 	// // fmt.Println(strings.Contains(greeting, "hello!"))
+// 	// // fmt.Println(strings.ReplaceAll(greeting, "hello", "hi"))
+// 	// // fmt.Println(strings.ToUpper(greeting))
+// 	// // fmt.Println(strings.Index(greeting, "ll"))
+// 	// // fmt.Println(strings.Index(greeting, "th"))
+// 	// fmt.Println(strings.Split(greeting, " "))
+
+// 	// // the original value is unchanged
+// 	// fmt.Println("orignal string value =", greeting)
+
+// 	// ages := []int{45, 20, 35, 75, 60, 50, 25}
+// 	// sort.Ints(ages)
+// 	// fmt.Println(ages)
+// 	// index := sort.SearchInts(ages, 30)
+// 	// fmt.Println(index)
+
+// 	// names := []string{"tobi", "victor", "ayo", "segun", "mayowa"}
+// 	// sort.Strings(names)
+// 	// fmt.Println(names)
+// 	// fmt.Println(sort.SearchStrings(names, "tobi"))
+// }
+
 package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func main() {
-	// greeting := "hello there friends!"
-	// // fmt.Println(strings.Contains(greeting, "hello!"))
-	// // fmt.Println(strings.ReplaceAll(greeting, "hello", "hi"))
-	// // fmt.Println(strings.ToUpper(greeting))
-	// // fmt.Println(strings.Index(greeting, "ll"))
-	// // fmt.Println(strings.Index(greeting, "th"))
-	// fmt.Println(strings.Split(greeting, " "))
+	// 	x := 0
+	// 	for x < 5 {
+	// 		fmt.Println("value of x is :", x)
+	// 		x++
+	// 	}
 
-	// // the original value is unchanged
-	// fmt.Println("orignal string value =", greeting)
+	// }
 
-	ages := []int{45, 20, 35, 75, 60, 50, 25}
-	sort.Ints(ages)
-	fmt.Println(ages)
-	index := sort.SearchInts(ages, 30)
-	fmt.Println(index)
+	// for i := 0; i < 5; i++ {
+	// 	fmt.Println("value of i is:", i)
+	// }
 
-	names := []string{"tobi", "victor", "ayo", "segun", "mayowa"}
-	sort.Strings(names)
-	fmt.Println(names)
-	fmt.Println(sort.SearchStrings(names, "tobi"))
+	// running through slice of string
+	names := []string{"victor", "tobi", "ayo", "mayowa"}
+	for i := 0; i < len(names); i++ {
+		fmt.Println(names[i])
+	}
 }
