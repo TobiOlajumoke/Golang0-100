@@ -116,36 +116,58 @@
 // 	// fmt.Println(sort.SearchStrings(names, "tobi"))
 // }
 
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	// 	x := 0
+// 	// 	for x < 5 {
+// 	// 		fmt.Println("value of x is :", x)
+// 	// 		x++
+// 	// 	}
+
+// 	// }
+
+// 	// for i := 0; i < 5; i++ {
+// 	// 	fmt.Println("value of i is:", i)
+// 	// }
+
+// 	// running through slice of string
+// 	names := []string{"victor", "tobi", "ayo", "mayowa"}
+// 	// 	for i := 0; i < len(names); i++ {
+// 	// 		fmt.Println(names[i])
+// 	// 	}
+
+// 	// for index, value := range names {
+// 	// 	fmt.Printf("the position at index %v is %v \n", index, value)
+// 	// }
+
+// 	// to get the value alone
+// 	// for _, value := range names {
+// 	// 	fmt.Printf("the value is %v \n", value)
+// 	// 	value = "new string"
+// 	// }
+
+// // fmt.Println(names)
 package main
 
 import "fmt"
 
 func main() {
-	// 	x := 0
-	// 	for x < 5 {
-	// 		fmt.Println("value of x is :", x)
-	// 		x++
-	// 	}
+	age := 45
+	fmt.Println(age <= 50)
+	fmt.Println(age >= 50)
+	fmt.Println(age == 45)
+	fmt.Println(age != 50)
 
-	// }
+	if age < 30 {
+		fmt.Println("age is less than 30")
+	} else if age < 40 {
+		fmt.Println("age is less than 40")
+	} else {
+		fmt.Println("age is not less than 45")
 
-	// for i := 0; i < 5; i++ {
-	// 	fmt.Println("value of i is:", i)
-	// }
-
-	// running through slice of string
-	names := []string{"victor", "tobi", "ayo", "mayowa"}
-	// 	for i := 0; i < len(names); i++ {
-	// 		fmt.Println(names[i])
-	// 	}
-
-	// for index, value := range names {
-	// 	fmt.Printf("the position at index %v is %v \n", index, value)
-	// }
-
-	// to get the value alone
-	for _, value := range names {
-		fmt.Printf("the value is %v \n", value)
 	}
 
 }
