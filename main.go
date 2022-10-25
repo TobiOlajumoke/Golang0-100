@@ -152,33 +152,57 @@
 // // fmt.Println(names)
 package main
 
-import "fmt"
+import "crypto/rand"
 
 func main() {
-	age := 45
-	fmt.Println(age <= 50)
-	fmt.Println(age >= 50)
-	fmt.Println(age == 45)
-	fmt.Println(age != 50)
+	// age := 45
+	// fmt.Println(age <= 50)
+	// fmt.Println(age >= 50)
+	// fmt.Println(age == 45)
+	// fmt.Println(age != 50)
 
-	if age < 30 {
-		fmt.Println("age is less than 30")
-	} else if age < 40 {
-		fmt.Println("age is less than 40")
-	} else {
-		fmt.Println("age is not less than 45")
-	}
+	// if age < 30 {
+	// 	fmt.Println("age is less than 30")
+	// } else if age < 40 {
+	// 	fmt.Println("age is less than 40")
+	// } else {
+	// 	fmt.Println("age is not less than 45")
+	// }
 
-	names := []string{"tobi", "victor", "ayo", "segun", "bito"}
-	for index, value := range names {
-		if index == 1 {
-			fmt.Println("continuing at pos", index)
-			continue
-		}
-		if index > 2 {
-			fmt.Println("breaking at pos", index)
-			break
-		}
-		fmt.Printf("the value at pos %v is %v \n ", index, value)
-	}
+	// names := []string{"tobi", "victor", "ayo", "segun", "bito"}
+	// for index, value := range names {
+	// 	if index == 1 {
+	// 		fmt.Println("continuing at pos", index)
+	// 		continue
+	// 	}
+	// 	if index > 2 {
+	// 		fmt.Println("breaking at pos", index)
+	// 		break
+	// 	}
+	// 	fmt.Printf("the value at pos %v is %v \n ", index, value)
+	// }
+
+	// side quest rasing 2 to the power of 11
+	// var x float64
+	// x = math.Exp2(11)
+	// fmt.Println(x)
+
+	//sum of numers 1-10
+	// sum:= 0
+	// for i:= 0; i < 10; i++ {
+	// 	sum += i
+
+	// }
+
+	// fmt.Println(sum)
+	// fmt.Println("The list of number from 1 - 1000")
+	// for i := 1; i <= 1000; i++ {
+	// 	fmt.Print(i, " ")
+	// }
+
+	min := 1
+	max := 10
+	v := rand.Intn(max-min) + min
+	println(v)
+
 }
