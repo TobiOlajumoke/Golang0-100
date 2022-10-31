@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 
-	message := "hello world"
+	message := "bankai"
 
+	fmt.Println(message)
+
+	message = "i am good"
 	fmt.Println(message)
 }

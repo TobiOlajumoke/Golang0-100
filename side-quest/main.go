@@ -152,7 +152,7 @@
 // // fmt.Println(names)
 package main
 
-import "crypto/rand"
+import "fmt"
 
 func main() {
 	// age := 45
@@ -188,21 +188,16 @@ func main() {
 	// fmt.Println(x)
 
 	//sum of numers 1-10
-	// sum:= 0
-	// for i:= 0; i < 10; i++ {
-	// 	sum += i
+	sum := 0
+	for i := 0; i < 10; i++ {
+		sum += i
 
-	// }
+	}
 
-	// fmt.Println(sum)
-	// fmt.Println("The list of number from 1 - 1000")
-	// for i := 1; i <= 1000; i++ {
-	// 	fmt.Print(i, " ")
-	// }
-
-	min := 1
-	max := 10
-	v := rand.Intn(max-min) + min
-	println(v)
+	fmt.Println(sum)
+	fmt.Println("The list of number from 1 - 1000")
+	for i := 1; i <= 1000; i++ {
+		fmt.Print(i, " ")
+	}
 
 }
